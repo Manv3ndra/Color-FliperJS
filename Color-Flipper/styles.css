@@ -1,0 +1,56 @@
+body{
+    background-color: red;
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Set a minimum height to prevent scroll bars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 39, 39);
+    border-radius: 0.4rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem 1.2rem;
+}
+
+button{
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    border: 2px solid;
+    border-color: blue;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.colorname{
+    color: rgb(152, 71, 227)
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
